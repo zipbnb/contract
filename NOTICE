@@ -1,0 +1,8 @@
+ZipBNB contracts
+
+spend/Doorstep.sol is adapted from ZipDoorstep in github.com/zipcoincash/zipcoin, used under its open-source
+licence, which asks that this credit be kept with copies and adaptations. Changes: rewritten for BNB Chain and for
+spending Privacy Pool notes (anonymous speech), with a byte cap on the target field and gifts at a door.
+
+The privacy pool contracts and circuits are 0xbow's Privacy Pools (Apache-2.0), used unmodified from
+github.com/0xbow-io/privacy-pools-core (v1.3.0), imported by core/Upstream.sol.
